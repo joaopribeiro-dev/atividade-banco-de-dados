@@ -1,7 +1,7 @@
 # Atividade em Aula — Exercícios Introdutórios de Banco de Dados
 
 ## 📌 Descrição do Projeto
-Resolução prática da atividade de Banco de Dados Relacional e SQL, contemplando modelagem (MER/DER), scripts de criação (DDL), povoamento (DML), consultas (DQL) e registros de execução.
+Resolução prática da atividade de Banco de Dados Relacional e SQL, contemplando modelagem (MER/DER), scripts de criação (DDL), implemento (DML), consultas (DQL) e registros de execução.
 
 ---
 
@@ -21,15 +21,12 @@ Resolução prática da atividade de Banco de Dados Relacional e SQL, contemplan
 ---
 
 ## 📸 Evidências de Execução no MySQL Workbench
-*(Adicione aqui os prints das consultas executadas com sucesso)*
 
----
+### 1. Criação das Tabelas (DDL)
+   ![Evidência DDL](evidencias/ddl_executado.png)
 
-## 🤖 Prompts Utilizados (Uso de IA)
-Em conformidade com as orientações do trabalho, os seguintes prompts foram utilizados para auxílio no processo:
+### 2. Implementação dos Dados (DML)
+   ![Evidência DML](evidencias/dml_executado.png)
 
-1. **Geração da Massa de Dados (DML):**
-   > *"Gere um script DML com inserts válidos mantendo a integridade referencial das chaves estrangeiras para o seguinte schema: [descrever tabelas]."*
-
-2. **Revisão e Integridade:**
-   > *"Revise o script DDL e verifique se as PKs, FKs e restrições UNIQUE estão corretamente aplicadas nos tipos de dados escolhidos."*
+### 3. Consultas Realizadas (DQL)
+   ![Evidência DQL](evidencias/dql_executado.png)
